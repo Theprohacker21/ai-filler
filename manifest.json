@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Anton Form Filler",
+  "version": "1.0",
+  "description": "Auto-fill Google Forms using Chrome's built-in AI.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "AI Form Autofill"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
